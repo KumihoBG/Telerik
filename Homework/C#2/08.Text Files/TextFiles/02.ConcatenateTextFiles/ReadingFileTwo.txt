@@ -1,0 +1,5 @@
+﻿Check demos at: https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/08.%20Text%20Files
+
+Thank you for testing my program!
+
+Good bye!

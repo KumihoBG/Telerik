@@ -1,0 +1,30 @@
+Problem 1. Strings in C#.
+
+Describe the strings in C#.
+What is typical for the string data type?
+Describe the most important methods of the String class.
+
+1/
+According to Microsoft, a string is an object of type String whose value is text. 
+Internally, the text is stored as a sequential read-only collection of Char objects. 
+There is no null-terminating character at the end of a C# string; 
+therefore a C# string can contain any number of embedded null characters ('\0'). 
+The Length property of a string represents the number of Char objects it contains, 
+not the number of Unicode characters. 
+In C#, the string keyword is an alias for String. 
+Therefore, String and string are equivalent, and you can use whichever naming 
+convention you prefer. 
+
+2/ 
+The string data type:
+- Represents text as a series of Unicode characters;
+- It is a reference type;
+- It is immutable (read-only)- it acts like the primitive data types; the contents of 
+a string object cannot be changed after the object is created, although the syntax 
+makes it appear as if you can do this.
+
+3/ 
+A very detailed information about the most important methods of the String class could be
+found here: https://msdn.microsoft.com/en-us/library/system.string_methods%28v=vs.110%29.aspx
+Among them are: .Compare(), .CompareTo(), .Split, .Join, .Replace, .Remove, IndexOf, LastIndexOf,
+.Concat(), Equals(), .Contains, .Format and so forth.

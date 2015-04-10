@@ -1,0 +1,4 @@
+﻿Welcome to my test file!
+
+This is a sample test file for testing the homework projects and tasks.
+Check the problems at www.telericakademy.com
